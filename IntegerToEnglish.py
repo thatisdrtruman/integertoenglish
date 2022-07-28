@@ -237,6 +237,8 @@ assert IntegerToEnglish(449515) == "Four hundred and forty-nine thousand, five h
 assert IntegerToEnglish(449541) == "Four hundred and forty-nine thousand, five hundred and forty-one"
 assert IntegerToEnglish(449540) == "Four hundred and forty-nine thousand, five hundred and forty"
 
+assert IntegerToEnglish(7000000) == "Seven million"
+
 #Other tests
 assert IntegerToEnglish(12703511033) == "Twelve billion, seven hundred and three million, five hundred and eleven thousand, and thirty-three"
 assert IntegerToEnglish(12703511333) == "Twelve billion, seven hundred and three million, five hundred and eleven thousand, three hundred and thirty-three"
